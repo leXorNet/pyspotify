@@ -7,6 +7,8 @@
 
 #define ENCODING "utf-8"
 
+// GIT TEST
+
 #if (PY_MAJOR_VERSION == 2 && PY_MINOR_VERSION < 6)
 #define PyBytes_AS_STRING            PyString_AS_STRING
 #define PyBytes_AsStringAndSize      PyString_AsStringAndSize
